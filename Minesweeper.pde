@@ -58,7 +58,7 @@ public void displayLosingMessage()
         buttons[r][c].setLabel("L");
       }
     }
-    noLoop();
+   stop();
 }
 public void displayWinningMessage()
 {
@@ -67,7 +67,7 @@ public void displayWinningMessage()
         buttons[r][c].setLabel("W");
       }
     }
-    noLoop();
+    stop();
 }
 public boolean isValid(int r, int c)
 {
