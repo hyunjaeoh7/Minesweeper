@@ -58,7 +58,7 @@ public void displayLosingMessage()
         buttons[r][c].setLabel("L");
       }
     }
-    stop();
+    exit();
 }
 public void displayWinningMessage()
 {
